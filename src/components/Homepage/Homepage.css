@@ -1,0 +1,33 @@
+.homepage {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px 30px 25px 30px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.homepage h2 {
+    padding: 10px 0 10px 0;
+}
+
+.homepage h4 {
+    padding: 10px 0 5px 0;
+}
+
+.homepage ul {
+    padding-left: 20px;
+}
+
+.homepage ul li {
+    margin: 0 0 10px 0;
+}
+
+.homepage ul li a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: rgb(16, 127, 182);
+    }
+}
